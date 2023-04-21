@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <>
             <div className='contact'>
-                <div className='contact-title'> Contact Us </div>
+                <div className='comp-title'> Contact Us </div>
                 <div className='contact-body'>
                     <div className='contact-row'>
                         <p className='contact-row-head'>Event Conveners</p>
@@ -30,7 +30,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className='contact-social'>
+                {/* <div className='contact-social'>
                     <ul className="list-unstyled">
                         <a
                             href="https://www.instagram.com/inceptra.it/"
@@ -51,7 +51,7 @@ const Contact = () => {
                             </li>
                         </a>
                     </ul>
-                </div>
+                </div> */}
             </div>
 
         </>

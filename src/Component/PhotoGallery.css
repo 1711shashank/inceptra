@@ -3,11 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* margin-top: 5rem; */
 }
 
-.photoGallery-title{
-    font-size: 3rem;
-}
 
 .photoGallery-body{
     display: flex;
@@ -28,22 +26,13 @@
 }
 
 
-
-
-body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    margin: 0rem;
-    overflow: hidden;
-  }
   
   #image-track {
     display: flex;
     gap: 4vmin;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: relative;
+    /* left: 50%; */
+    top: 28rem;
     transform: translate(0%, -50%); 
     user-select: none; /* -- Prevent image highlighting -- */
   }

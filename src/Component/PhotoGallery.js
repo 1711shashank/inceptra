@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useRef } from 'react'
 import './PhotoGallery.css'
 
@@ -132,8 +131,7 @@ const PhotoGallery = () => {
     return (
         <>
             <div className='photoGallery'>
-                <p className='photoGallery-title'>Photos Gallery 2022</p>
-
+                <p className='comp-title'>Photos Gallery 2022</p>
 
                 <div 
                     id="image-track" 
@@ -152,6 +150,7 @@ const PhotoGallery = () => {
                             class="image"
                             src= {curImg.src}
                             draggable="false" 
+                            alt=''
                         />
 
                             
@@ -171,32 +170,3 @@ export default PhotoGallery
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// {/* <div className='photoGallery-body'>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-            
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-            
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-//             <img className='photoGallery-images' src={require('../Assets/img1.jpeg')} alt="" height="100%" width="100%"/>
-            
-//                 </div> */}

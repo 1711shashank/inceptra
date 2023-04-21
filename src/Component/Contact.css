@@ -5,9 +5,6 @@
     justify-content: center;
     margin-top: 10rem;
 }
-.contact-title{
-    font-size: 3rem;
-}
 .contact-body{
     display: flex;
     justify-content: space-around;

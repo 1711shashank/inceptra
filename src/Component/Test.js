@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import './Test.css';
+
 SwiperCore.use([Autoplay, Pagination, EffectCoverflow, Navigation]);
 
 const images = [
@@ -48,7 +49,7 @@ const images = [
     },
 ];
 
-const ImageCarousel = () => {
+const Test = () => {
 
     return (
         <div>
@@ -81,4 +82,4 @@ const ImageCarousel = () => {
     );
 };
 
-export default ImageCarousel;
+export default Test;

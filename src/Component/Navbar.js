@@ -9,13 +9,12 @@ const Navbar = () => {
     return (
         <>
             <nav className='navbar'>
-                <img className='navbar-avatar' src={require('../Assets/nsecLogo1.png')} alt='' />
+                <img className='navbar-avatar' src={require('../Assets/InceptraLogo.png')} alt='' />
                 <div className={Mobile ? "navbar-mobile" : "navbar-links"} onClick={() => setMobile(false)}>
                     <a href='#Home'> Home</a>
                     <a href='#About'> About</a>
                     <a href='#Gallery'> Gallery</a>
                     <a href='#Sponsors'> Sponsors</a>
-                    <a href='#Contribute'> Contribute</a>
                     <a href='#Team'> Team</a>
                     <a href='#Contact'> Contact</a>
                 </div>

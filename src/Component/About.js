@@ -4,14 +4,14 @@ import './About.css'
 const About = () => {
   return (
     <>
-      <div className='about'>
+      <div className='about' id='About'>
         <div className='comp-title'> What is Inceptra </div>
         <div className='about-body'>
           <div className='about-left'>
             <img src={require('../Assets/InceptraLogo.png')} alt="" height="100%" width="100%" />
           </div>
           <div className='about-right'>
-            <h3 className='about-right-head'>Inceptra is Passion</h3>
+            <h3 className='about-right-head'>Inceptra is Emotion</h3>
             <p className='about-right-text'>
               Inceptra is an annual event for the alumni of Netaji Subhash Engineering College's IT department. The event aims to reunite former students with their alma mater and each other, to exchange experiences and insights on the IT industry's latest trends, career opportunities, and challenges. The event features talks and panel discussions by prominent alumni, faculty members, and current students, and also includes cultural and recreational activities for networking and socializing.
               <br />

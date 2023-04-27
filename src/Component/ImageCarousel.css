@@ -1,22 +1,24 @@
+.ImageCarousel{
+  margin-top: 8rem;
+}
 
 .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    height: 50rem;
-    width: 35rem;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  width: 35rem;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}

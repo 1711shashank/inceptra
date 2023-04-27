@@ -1,0 +1,48 @@
+.Sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.8);
+
+}
+.inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: red; */
+    /* height: 15rem; */
+}
+
+.wrapper {
+    /* position: absolute; */
+    display: flex;
+}
+
+section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+}
+
+.image > * {
+    max-width: 50rem;
+    height: 15rem;
+    padding: 0 15px;
+    object-fit: cover;
+}
+
+.image > * :last-of-type {
+    padding-left: 0;
+}
+
+
+
+@keyframes swipe {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}

@@ -7,18 +7,19 @@ import ImageCarousel from './ImageCarousel'
 import Sponsors from './Sponsors'
 import Footer from './Footer'
 import CrewCard from './CrewCard'
+import Crew from './Crew'
 
 const Home = () => {
     return (
         <>
             <Navbar />
             <ImageCarousel/>
-            <About/>
-            <PhotoGallery />
-            <Sponsors/>
-            <Contact/>
+            {/* <About/> */}
+            {/* <PhotoGallery /> */}
+            {/* <Sponsors/> */}
+            {/* <Contact/> */}
             {/* <Footer/> */}
-            {/* <CrewCard/> */}
+            {/* <Crew/> */}
         </>
     )
 }

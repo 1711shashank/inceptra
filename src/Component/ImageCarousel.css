@@ -1,5 +1,5 @@
 .ImageCarousel{
-  padding-top: 8rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,4 +32,11 @@
   border-radius: 8px;
   object-fit: cover;
   color: #BF0101;
+}
+
+@media (max-width: 750px) {
+
+  .ImageCarousel > img{
+    width: 90vw;
+  }
 }

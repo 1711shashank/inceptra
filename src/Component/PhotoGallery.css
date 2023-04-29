@@ -62,3 +62,8 @@
   transform: scale(0.95);
 }
 
+@media (max-width: 750px) {
+
+.image-cards img{
+  width: 35rem;
+}}

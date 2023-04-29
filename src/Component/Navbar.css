@@ -28,6 +28,12 @@ a {
 
 }
 
+.navbar-inceptra-text{
+    font-family: 'Patrick Hand';
+    color: #BF0101;
+    font-size: 4rem;
+}
+
 .navbar-links {
   display: flex;
   justify-content: flex-end;
@@ -55,10 +61,15 @@ button {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 1050px) {
   .navbar {
     width: 100vw;
     margin: 0;
+    justify-content: center;
+  }
+
+  .navbar-inceptra-text{
+    font-size: 3rem; 
   }
 
   .navbar-avatar {
@@ -85,7 +96,7 @@ button {
     align-items: center;
     padding: 1rem;
     font-size: 1.6rem;
-    background-color: lightgray;
+    background-color: #1F1F1F;
 
   }
   .navbar-mobile>a:hover {
@@ -96,5 +107,6 @@ button {
     position: absolute;
     display: block;
     right: 20px;
+    color: #BF0101;
   }
 }

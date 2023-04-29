@@ -1,29 +1,30 @@
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 10rem;
-    background-color: rgb(0,0,0,0.8);
+    background-color: rgb(0, 0, 0, 0.8);
 
 }
-.contact-body{
+
+.contact-body {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.contact-row-head{
+
+.contact-row-head {
     font-size: 2rem;
-    color: red;
+    color: #BF0101;
 }
-.contact-row-text{
+
+.contact-row-text {
     font-size: 1.5rem;
     color: black;
 }
 
-
-
-.contact-social{
+.contact-social {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -34,18 +35,13 @@
     list-style: none;
 }
 
-.list-unstyled :hover {
-    background-color: #ff4952;
-    color: white;
-
-}
 
 .list-unstyled>a {
     display: inline-grid;
     place-items: center;
     width: 4rem;
     height: 4rem;
-    border: 1px solid #cecece;
+    /* border: 1px solid #cecece; */
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s;
@@ -56,6 +52,12 @@
     color: #000000;
 }
 
+.list-unstyled>a :hover {
+    transform: scale(1.1);
+}
+
 .list-unstyled>a>li>* {
     font-size: 2rem !important;
+    /* transition: opacity 0.3s ease-in-out; */
+
 }

@@ -16,13 +16,14 @@ a {
   height: auto;
   min-height: 8vh;
   padding: 0.8rem 5rem 0.8rem 3rem;
-  background-color: rgb(213, 213, 213);
+  background-color: #1f1f1f;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+
 }
 
 .navbar-avatar {
-  padding: 5px;
-  width: 4rem;
+  padding: 1px;
+  width: 5.3rem;
   border-radius: 50%;
 
 }
@@ -34,8 +35,9 @@ a {
 }
 
 .navbar-mobile > a, .navbar-links > a {
-  color: black;
-  font-size: 16px;
+  color: #F5D67B;
+  font-weight: 400;
+  font-size: 2rem;
   padding: 1rem;
   cursor: pointer;
 }
@@ -87,7 +89,7 @@ button {
 
   }
   .navbar-mobile>a:hover {
-    background-color: red;
+    background-color: #BF0101;
   }
 
   .mobile-menu-icon {

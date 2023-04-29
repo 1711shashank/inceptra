@@ -82,7 +82,7 @@ const Crew = () => {
     return (
         <>
             <div className='Crew'>
-                <div className='comp-title'> Crew Members </div>
+                <div className='comp-title'> <span> Crew Members </span>  </div>
                 <div className='Crew-card'>
                     {
                         crewMembersArray.map((curCrewMemberData) => (

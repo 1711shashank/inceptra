@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import './ImageCarousel.css';
+import InceptraText from '../Assets/inceptra-for-web-4.png';
 SwiperCore.use([Autoplay, Pagination, EffectCoverflow, Navigation]);
 
 const images = [
@@ -52,7 +53,8 @@ const ImageCarousel = () => {
 
     return (
         <>
-            <div className='ImageCarousel' id='Home'>
+            <div className='ImageCarousel pageDiv' id='Home'>
+                <img src={InceptraText} alt=''/>
                 <Swiper
                     modules={[Autoplay, Pagination, EffectCoverflow]}
                     autoplay={{ delay: 2000, disableOnInteraction: true }}

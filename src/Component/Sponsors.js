@@ -19,10 +19,10 @@ const Sponsors = () => {
 
     return (
         <>
-        <div className='Sponsors' id='Sponsors'> 
-        <p className='comp-title'> Sponsors </p>
-            <Banner images={images} speed={15000} />
-            <Banner images={images} speed={15000} />
+        <div className='Sponsors pageDiv' id='Sponsors'> 
+        <p className='comp-title'> Associate <span>  Sponsors </span> </p>
+            <Banner images={images} speed={10000} />
+            <Banner images={images} speed={10000} />
         </div>
            
         </>

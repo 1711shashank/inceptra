@@ -4,8 +4,8 @@ import './About.css'
 const About = () => {
   return (
     <>
-      <div className='about' id='About'>
-        <div className='comp-title'> What is Inceptra </div>
+      <div className='about pageDiv' id='About'>
+        <div className='comp-title'> What is <span>Inceptra</span> </div>
         <div className='about-body'>
           <div className='about-left'>
             <img src={require('../Assets/InceptraLogo.png')} alt="" height="100%" width="100%" />

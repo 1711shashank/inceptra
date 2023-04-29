@@ -57,9 +57,8 @@ const PhotoGallery = () => {
 
     return (
         <>
-            <div className='photoGallery' id='Gallery'>
-                <p className='comp-title'>Photos Gallery 2022</p>
-
+            <div className='photoGallery pageDiv' id='Gallery'>
+                <p className='comp-title'>Photos <span> Gallery </span> </p>
                 <div className="image-cards">
                     {imgArray.map((curImg) => (
                         <div className='image-card'>

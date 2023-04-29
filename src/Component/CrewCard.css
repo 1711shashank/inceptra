@@ -6,7 +6,7 @@
     border: 1px solid lightgray;
     border-radius: 5px;
     width: min-content;
-    /* padding-bottom: 2.5rem; */
+    padding-bottom: 1.5rem;
     margin: 1.5rem;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
     background-color: white;
@@ -19,7 +19,6 @@
     margin: 2rem;
     border-radius: 50%;
     box-shadow: 0 1px 8px 0 lightgray, 0 6px 20px 10px lightgrey;
-
 }
 
 .CrewCard-name{

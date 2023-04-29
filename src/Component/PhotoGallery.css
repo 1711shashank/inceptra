@@ -46,7 +46,7 @@
 .photoGallery-viewIcon{
   text-decoration: none;
   position: absolute;
-  color: red;
+  color: #BF0101;
   top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -55,7 +55,7 @@
 }
 
 .photoGallery-viewIcon:last-child :visited{
-  color: red;
+  color: #BF0101;
 }
 
 .image-card:hover img {

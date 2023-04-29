@@ -14,12 +14,11 @@ const Home = () => {
         <>
             <Navbar />
             <ImageCarousel/>
-            {/* <About/> */}
-            {/* <PhotoGallery /> */}
-            {/* <Sponsors/> */}
+            <About/>
+            <PhotoGallery />
+            <Sponsors/>
             {/* <Contact/> */}
-            {/* <Footer/> */}
-            {/* <Crew/> */}
+            <Footer/>
         </>
     )
 }

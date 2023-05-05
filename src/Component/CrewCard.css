@@ -33,6 +33,30 @@
     font-weight: 400;
     margin-bottom: 2rem;
     color: #757575!important;
-    font-family: "Roboto",sans-serif;
+    font-family: 'Patrick Hand';
+    text-transform: uppercase;
 
+}
+
+@media (max-width: 650px) {
+    .CrewCard img{
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+    .CrewCard-name{
+        font-size: 1.2rem;
+    margin: 1rem 0;
+
+    }
+    .CrewCard-role{
+        font-size: 1rem;
+    margin-bottom: 0;
+
+    }
+    .list-unstyled>a{
+        margin: 0;
+    }
+
+    
 }

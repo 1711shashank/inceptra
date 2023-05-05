@@ -4,6 +4,8 @@
     align-items: center;
     background-color: #fff8e2;
     width: 100%;
+    height: auto;
+    min-height: 100vh;
     padding-top: 3rem;
 }
 .Crew-card{
@@ -11,7 +13,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-   
 }
 
 
@@ -51,5 +52,4 @@
 .list-unstyled>a>li>* {
     font-size: 2rem !important;
     /* transition: opacity 0.3s ease-in-out; */
-
 }
